@@ -1,0 +1,16 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5ld1VzZXIiLCJpZCI6IjYzYmVkMmVlMDZkZTQ0NmY4NDAzMmU0ZSIsImlhdCI6MTY3MzUzNjgyM30.T2BjUPNUBT1aVdezeuXQGj6FRo-eTa7LDVqTCeu-6Yc
+
+{
+"title": "NEWBLOGTEST121",
+"author": "USER",
+"url": "USERASSOSIAATIOTEST10",
+"likes": 34
+}
+
+# {
+#     "username":"newUser",
+#     "name":"testuser",
+#     "password": "newuser"
+# }
